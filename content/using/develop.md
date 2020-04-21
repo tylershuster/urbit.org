@@ -64,6 +64,7 @@ Here are some tutorials written by members of the Urbit community. Some are a li
 - [Learning Hoon](https://github.com/knubie/learning-hoon) by `@knubie`
 - [A Nock Interpreter](https://jtobin.io/nock) by `~nidsut-tomdun`
 - [Basic Hoonery](https://jtobin.io/basic-hoonery) by `~nidsut-tomdun`
+- [Urbit on ARM (Raspberry Pi and Android)](https://botter-nidnul.github.io/) by `~botter-nidrul`
 
 If you want to add something to the list, [shoot us an email](mailto:support@urbit.org) or make a pull request in the [docs repository](https://github.com/urbit/docs).
 
