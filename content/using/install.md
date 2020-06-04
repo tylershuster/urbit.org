@@ -129,7 +129,24 @@ When your ship is finished booting, you will see either the `~sampel-palnet:dojo
 
 To shut down your ship, use `Crtl-d`. 
 
-To start your ship up again, run `./urbit sampel-palnet` from the directory where your Urbit binary is saved. Don't boot multiple instances of your ship at the same time.
+To start your ship up again, run `./urbit sampel-palnet/` from the directory
+where your Urbit binary is saved. Note that in this usage,
+`sampel-palnet/` is the path of a folder, which by default is located in the same folder as
+the Urbit binary. This folder is called your ship's **pier**, and you
+can put it wherever you like.
+
+Never boot multiple instances of your ship at the same time. You can prevent
+this from happening on accident by only ever keeping a single copy of your pier.
+
+### Updating to the latest binary
+
+Most updates to Urbit are downloaded and applied automatically as OTA (Over the
+Air) updates. Occasionally it would be infeasible to distribute an update this
+way, and a new `urbit` binary is released. This is announced in the `urbit-dev`
+Google Group when it occurs (as are all OTA updates). To update to the latest binary, follow
+the same process outlined [above](#urbit) to download and extract it into a new folder
+(the binary linked on this page will always be the latest). Then run it as
+before with `./urbit path/to/sampel-palnet/`.
 
 ## The Dojo
 
@@ -157,19 +174,9 @@ Good, your Dojo is working correctly. Now let's run our first useful command in 
 
 The `>=` output means that a command was successful. Now you can see your ship's files in its Unix directory.
 
-## Updating to the latest binary
 
-Most updates to Urbit are downloaded and applied automatically as OTA (Over the
-Air) updates. Occasionally it would be infeasible to distribute an update this
-way, and a new `urbit` binary is released. This is announced in the `urbit-dev`
-Google Group when it occurs (as are all OTA updates). To update to the latest binary, follow
-the same process outlined [above](#urbit) to download and extract it into a new folder
-(the binary linked on this page will always be the latest),
-then move your ship's **pier** (the folder with your ship's name) from the
-folder containing the old `urbit` binary to the folder containing the new one.
-Then delete the folder containing the old binary.
 
-### Using Landscape
+## Using Landscape
 
 Landscape is the Urbit web interface, and it's the best way to interact with your ship. Chrome and Brave are the recommended browsers for using Landscape. To get onto Landscape:
 
