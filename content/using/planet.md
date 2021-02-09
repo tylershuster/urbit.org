@@ -5,11 +5,13 @@ description = "Getting started with a permanent Urbit identity."
 template = "page_indiced.html"
 +++
 
+A planet is a permanent Urbit identity. It can never be taken from you, and its reputation will be tied to your own. If you're not yet familiar with the Urbit network, please follow the [Getting Started guide](/using/install), which will explain the basics and walk you through using a free identity. This guide explains the next steps.
+
 ### Purchase a planet {#purchase}
 
 There are a few ways to get your own planet:
 
-- Getting an invitation from a friend.
+- Getting an invitation from a friend (or stranger).
 - Purchasing a planet, including hosting, from a [hosting provider](#hosting-providers) such as [geturbitid.com](https://www.geturbitid.com/).
 - Manually setting up and hosting an planet purchased from a third party such as [urbit.live](https://urbit.live), [OpenSea](https://opensea.io), [planet.market](https://planet.market/), [urbit.me](https://urbit.me), [urth systems](https://urth.systems/), or [Urbit Marketplace](https://urbitmarketplace.com/).
 
